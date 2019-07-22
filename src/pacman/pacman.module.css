@@ -1,0 +1,24 @@
+.gameField {
+    margin-left: 10px;
+    width: 600px;
+    height: 600px;
+    background: black;
+    position: relative;
+}
+
+
+.pacManObject {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left:0px;
+    top:0px;
+    transform: rotate(0deg);
+}
+
+.wallField {
+    position: absolute;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+

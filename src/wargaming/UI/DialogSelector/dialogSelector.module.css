@@ -1,0 +1,81 @@
+.dialogSelector {
+    position: absolute;
+    background: #3F3F3F;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 10px 30px;
+    width: 550px;
+    box-shadow: 0 0 45px 20px rgba(0, 0, 0, .2);
+}
+
+.header {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.closeButton {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search > label {
+    margin-right: 20px;
+}
+
+label > input {
+    outline: none;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+label > select {
+    outline: none;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.elements {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: #000;
+    max-height: 230px;
+    overflow-y: auto;
+}
+
+.elements > div {
+    padding: 4px;
+}
+
+.selectElements > div {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons Button {
+    margin-right: 15px;
+}

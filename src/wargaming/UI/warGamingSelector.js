@@ -1,0 +1,1 @@
+export const dialogSelectorShowSelector = state => state.mainPage.dialogSelectorShow;

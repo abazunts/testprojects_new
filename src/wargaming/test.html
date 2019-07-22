@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<P ID="z" style="color:blue;font:8mm; position:absolute;left:0;top:100"
+   onClick="moveTxt()">Z</P>
+
+<SCRIPT>
+    x=0; y=100; dx=0; dy=0;
+    function f(x) { return 60*Math.sin(x*Math.PI/180);}
+    function moveTxt()
+    {
+        if ((z.style.pixelLeft<document.body.clientWidth-30) && (z.style.pixelTop>30))
+        {
+            z.style.left=x+dx;
+            z.style.top=y+dy-f(x+dx);
+            dx+=20;
+            dy+=7;
+            setTimeout("moveTxt()",125);
+        }
+    }
+</SCRIPT>
+</body>
+</html>

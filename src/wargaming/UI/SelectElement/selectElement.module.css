@@ -1,0 +1,27 @@
+.selectElement {
+    display: inline-block;
+    background: black;
+    padding: 10px;
+}
+
+.selectElement > button {
+    border: none;
+    background: black;
+    color: white;
+    border-left: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.selectElement > span {
+    background: black;
+    color: white;
+    margin-right: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
